@@ -3,7 +3,7 @@ var http = require('http'),
     url = require('url');
 
 var port = process.env.PORT || 8000,
-    proxyURL = process.env.PROXY_URL || 'http://registry.npmjs.org:80/',
+    proxyURL = process.env.PROXY_URL || 'https://www.goodreads.com',
     allowOrigin = process.env.ALLOW_ORIGIN || '*',
     allowMethods = process.env.ALLOW_METHODS || '*',
     allowHeaders = process.env.ALLOW_HEADERS || 'X-Requested-With'
