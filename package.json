@@ -1,0 +1,11 @@
+{
+  "name": "easy-cors-proxy",
+  "version": "0.1.0",
+  "description": "Proxy any url with CORS headers",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.40.0"
+  }
+}
