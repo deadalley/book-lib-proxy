@@ -2,7 +2,7 @@ var http = require('http'),
     request = require('request'),
     url = require('url');
 
-var port = process.env.PORT || 8000,
+var port = process.env.PORT || 5000,
     proxyURL = process.env.PROXY_URL || 'https://www.goodreads.com',
     allowOrigin = process.env.ALLOW_ORIGIN || '*',
     allowMethods = process.env.ALLOW_METHODS || '*',
